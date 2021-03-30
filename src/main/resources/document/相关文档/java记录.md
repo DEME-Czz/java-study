@@ -8,7 +8,11 @@ java有个特bai点就是du序列化，简单地来说就是可以将这个类�
 
 
 
-### 线程相关的文章 https://www.cnblogs.com/lixin-link/p/10998058.html
+### 线程相关的文章 
+
+https://www.cnblogs.com/lixin-link/p/10998058.html
+
+https://blog.csdn.net/lsr40/article/details/106770113
 
 ### wait/notify/notifyAll
 
@@ -18,7 +22,7 @@ java有个特bai点就是du序列化，简单地来说就是可以将这个类�
 * wait(long timeout)，该方法与wait()方法类似，唯一的区别就是在指定时间内，如果没有notify或notifAll方法的唤醒，也会自动唤醒。
 * 至于wait(long timeout,long nanos)，本意在于更精确的控制调度时间，不过从目前版本来看，该方法貌似没有完整的实现该功能
 
-注意：wait方法的使用必须在同步的范围内，否则就会抛出IllegalMonitorStateException异常，wait方法的作用就是阻塞当前线程等待notify/notifyAll方法的唤醒，或等待超时后自动唤醒。
+注意：wait方法的使用必须在同步的范围内，否则就会抛出IllegalMonitorStateException异常，wait方法的作用就是阻塞当前线程等待notify/notifyAll方法的唤醒，或等待超时后自动唤醒。 
 
 ```java
 /**
