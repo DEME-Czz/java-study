@@ -16,6 +16,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     compile group: 'com.alibaba', name: 'fastjson', version: '1.2.56'
@@ -23,6 +24,9 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.10'
     implementation group: 'com.google.guava', name: 'guava', version: '30.1-jre'
     implementation group: 'org.cent', name: 'scanner-core', version: '1.0.1-SNAPSHOT'
+
+//    CSV相关依赖包
+    compile group: 'com.opencsv', name: 'opencsv', version: '5.2'
 
 }
 
