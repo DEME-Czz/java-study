@@ -175,4 +175,6 @@ public void run() {
 　5. 任务超时处理。在网络协议滑动窗口请求应答式交互时，处理超时未响应的请求等。
 
 
+泛型相关的文章:  https://blog.csdn.net/s10461/article/details/53941091
+
 
